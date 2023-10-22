@@ -1,0 +1,11 @@
+VAR
+    v1,v2: ARRAY_OF INTEGERs[];
+    ss2:FLOAT
+    i,pp :INTEGER
+    BEGIN
+    FOR i FROM 0 TO v1.length-1 STEP 1  DO
+        FOR pp FROM 0 TO v2.length-1 STEP step  DO
+    ss2=ss2+v1[i]*v2[j]
+        END_FOR
+    END_FOR
+    END

@@ -1,0 +1,22 @@
+ALGORITHM problem1
+VAR
+    set1 : ARRAY_OF INTEGER[4];
+    set2 : ARRAY_OF INTEGER[5];
+    set3 : ARRAY_OF INTEGER[];
+    i,g,f,:INTEGER;
+    sum:INTEGER=0;
+
+BEGIN
+    set1 :={3,1,7,9}
+    set2:={2,1,4,9,3}
+    IF (set1[i]<>set2[g]) THEN
+        set3.(set1[i])
+    END_IF
+    IF (set2[g]<>set1[i]) THEN
+        set3(set2[j])
+    END_IF
+
+    FOR f FROM 0 TO set3.length-1 STEP 1  DO
+        sum=sum + set3[f]
+    END_FOR
+END
